@@ -16,3 +16,8 @@ grep -o -c -i -v "Sevilla" Alumnos.txt
 
 8.- 
 sed 's/Vicent/Pepe/g' Alumnos.txt
+
+9.- 
+cat Alumnos.txt | awk '{print $1, $2, $3, $4, $5}' | sort -k4  | head -n17
+
+10.-
