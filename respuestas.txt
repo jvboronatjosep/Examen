@@ -2,5 +2,5 @@
 
 2.- Cd examen
 
-3.- grep -c -i "SI" Alumnos.txt > si.txt
-Y para mostrarlo he utilizadp el comando = cat si.txt
+3.- grep -n -o "SI" Alumnos.txt > si.txt
+y para verlo he hecho un cat si.txt
