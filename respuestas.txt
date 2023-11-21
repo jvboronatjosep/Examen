@@ -22,3 +22,7 @@ cat Alumnos.txt | awk '{print $1, $2, $3, $4, $5}' | sort -k4  | head -n17
 
 10.-
 awk '{print $1, $2}' Alumnos.txt | grep -i "^J"
+
+11.- 
+ du -hs * du.txt
+ no se
