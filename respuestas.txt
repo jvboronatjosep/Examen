@@ -4,3 +4,6 @@
 
 3.- grep -n -o "SI" Alumnos.txt > si.txt
 y para verlo he hecho un cat si.txt
+
+5.-
+mv si.txt si
