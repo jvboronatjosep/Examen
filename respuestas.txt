@@ -10,3 +10,6 @@ mv si.txt si
 
 6.-
 awk '{print $1, $2,"-",$5}' Alumnos.txt
+
+7.- 
+grep -o -c -i -v "Sevilla" Alumnos.txt
