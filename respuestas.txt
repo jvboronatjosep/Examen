@@ -1,1 +1,3 @@
 1.- Mkdir examen
+
+2.- Cd examen
